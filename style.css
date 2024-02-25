@@ -1,0 +1,97 @@
+
+.navbar-1{  
+  background-color: #322E41;
+  min-height: 70px;
+}
+.ustun-1{
+  color: aliceblue;
+  padding: 23px 14px;
+}
+.ustun-1:hover{
+  transition: 0.9s;
+  height: 70px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  color: black;
+}
+.nike-contaienr{
+  min-height: 550px;
+  background-image: url(./img/Nike-Adapt-BB\ 1.jpg);
+  background-size: cover;
+}
+.nike-img-cards{
+  min-height: 600px;
+  background-color: aliceblue;
+}
+.ustun-2{
+  background-color: white;
+  border-radius: 10px;
+}
+.font-size{
+  color: #9B9B9B;
+  font-size: 16px;
+}
+.ustun-3{
+  background-color: rgb(31, 30, 29);
+  border-radius: 10px;
+}
+.futter{
+  min-height: 260px;
+  background-color: #322E41;
+}
+@media screen and (max-width:360px) {
+  .input-1{
+    min-width: 50px;
+  }
+  .input-2{
+    width: 100%;
+  }
+  .button{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .input-1{
+    width: 100%;
+  }
+  .input-2{
+    width: 100%;
+  }
+  .button{
+    width: 100%;
+  }
+  .ustun-4{
+  display: flex; 
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  }
+}
+.input-1{
+  min-width: 350px;
+  min-height: 34px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #FFF;
+}
+.input-2{
+  min-width: 350px;
+  height: 86px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #FFF;
+}
+.button{
+  min-width: 350px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #544294;
+}
+.futter a{
+  color: white;
+}
+.futter a:hover{
+  transition: 1s;
+  color: red;
+}
